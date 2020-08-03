@@ -1,4 +1,4 @@
-# Elek
+# Angular 5 / Bootstrap 4 / jQuery 3 starter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
