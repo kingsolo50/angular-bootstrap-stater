@@ -1,0 +1,42 @@
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  // MOVE LANDING CLASS UP -3REM
+  .landing {
+    margin-top: -3rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  // MOVE LANDING CLASS UP -3REM
+  .landing {
+    margin-top: -3rem;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .landing {
+    margin-top: -3rem;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .landing {
+    margin-top: -3rem;
+  }
+}
+
+.container-one {
+  background: url(https://images.pexels.com/photos/161154/stained-glass-spiral-circle-pattern-161154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  h1, .lead {
+    color: white;
+  }
+}

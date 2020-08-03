@@ -1,0 +1,50 @@
+@mixin bg-dark {
+  .nav-item {
+    padding-right: 2rem;
+    .nav-link {
+      color: black !important;
+    }
+  }
+}
+
+@mixin navPosition {
+  #nav {
+    .fixed-top {
+      position: relative;
+    }
+  }
+}
+
+/*
+  NAV
+--------------------------------------*/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  .hiddenOnMobile {
+    display: none !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  @include navPosition;
+  .hiddenOnMobile {
+    display: none !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  @include navPosition;
+  .hiddenOnDesktop {
+    display: none;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  @include navPosition;
+  .hiddenOnDesktop {
+    display: none;
+  }
+}
